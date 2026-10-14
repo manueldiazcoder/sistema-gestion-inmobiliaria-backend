@@ -1,1 +1,9 @@
+# Dependencias
 node_modules
+
+# Variables de entorno: nunca se versionan.
+# El archivo real .env vive solo en tu máquina. Para compartir la
+# configuración necesaria sin exponer secretos, se usa .env.example.
+.env
+.env.local
+.env.*.local
